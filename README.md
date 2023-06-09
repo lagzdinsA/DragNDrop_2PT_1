@@ -10,7 +10,7 @@ Projekts "Medieval puzzle", realizē speli kura jaiepilda puzzles gabali paradze
 - [x] Iespēja mainīt objekta izmēru pa x asi
 - [x] Iespēja mainīt objekta izmēru pa y asi
 - [x] Skaņas efekti
-- [] Pievienot vel objektus
-- [] Uztaisit sakuma ekranu
-- [] Uztaisit beigu ekranu
-- [] Pievienot vel skanas
+- [ ] Pievienot vel objektus
+- [ ] Uztaisit sakuma ekranu
+- [ ] Uztaisit beigu ekranu
+- [ ] Pievienot vel skanas
