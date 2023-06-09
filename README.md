@@ -1,8 +1,8 @@
-# DragNDrop_2PT_1
-Projekts "Drag N Drop", realizē automašīnu novietošanas spēli. Spēle paredzēta mazāko klašu skolēniem.
+# Medieval puzzle
+Projekts "Medieval puzzle", realizē speli kura jaiepilda puzzles gabali paradzetaja vieta, izmērā un rotācijā.
 
 ## Darāmo darbu saraksts
-- [x] Iespēja pārvietot automašīnu objektus
+- [x] Iespēja pārvietot objektus
 - [x] Iespēja objektu novietot brīvā vietā uz kartes
 - [x] Iespēja objektu novietot uz nepareizā laukuma
 - [x] Iespēja objektu novietot uz pareizā laukuma
@@ -10,3 +10,7 @@ Projekts "Drag N Drop", realizē automašīnu novietošanas spēli. Spēle pared
 - [x] Iespēja mainīt objekta izmēru pa x asi
 - [x] Iespēja mainīt objekta izmēru pa y asi
 - [x] Skaņas efekti
+- [] Pievienot vel objektus
+- [] Uztaisit sakuma ekranu
+- [] Uztaisit beigu ekranu
+- [] Pievienot vel skanas
