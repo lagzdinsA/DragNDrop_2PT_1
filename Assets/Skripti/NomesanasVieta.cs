@@ -57,19 +57,53 @@ public class NomesanasVieta : MonoBehaviour,
 						GetComponent<RectTransform>().localScale;
 
 					switch (eventData.pointerDrag.tag) {
-						case "atkritumi":
+							case "puts":
 							objektuSkripts.skanasAvots.PlayOneShot(
 								objektuSkripts.skanasKoAtskanot[1]);
 							break;
-
-						case "atrie":
+							case "pils":
 							objektuSkripts.skanasAvots.PlayOneShot(
 								objektuSkripts.skanasKoAtskanot[2]);
 							break;
-
-						case "buss":
+							case "hut":
 							objektuSkripts.skanasAvots.PlayOneShot(
 								objektuSkripts.skanasKoAtskanot[3]);
+							break;
+							case "house":
+							objektuSkripts.skanasAvots.PlayOneShot(
+								objektuSkripts.skanasKoAtskanot[4]);
+							break;
+							case "dog":
+							objektuSkripts.skanasAvots.PlayOneShot(
+								objektuSkripts.skanasKoAtskanot[5]);
+							break;
+							case "mushroom":
+							objektuSkripts.skanasAvots.PlayOneShot(
+								objektuSkripts.skanasKoAtskanot[6]);
+							break;
+							case "sailor":
+							objektuSkripts.skanasAvots.PlayOneShot(
+								objektuSkripts.skanasKoAtskanot[7]);
+							break;
+							case "ship":
+							objektuSkripts.skanasAvots.PlayOneShot(
+								objektuSkripts.skanasKoAtskanot[8]);
+							break;
+							case "tower":
+							objektuSkripts.skanasAvots.PlayOneShot(
+								objektuSkripts.skanasKoAtskanot[9]);
+							break;
+							case "dragon":
+							objektuSkripts.skanasAvots.PlayOneShot(
+								objektuSkripts.skanasKoAtskanot[10]);
+							break;
+							case "warrior band":
+							objektuSkripts.skanasAvots.PlayOneShot(
+								objektuSkripts.skanasKoAtskanot[11]);
+							break;
+							case "mill":
+							objektuSkripts.skanasAvots.PlayOneShot(
+								objektuSkripts.skanasKoAtskanot[12]);
 							break;
 
 						default:
@@ -85,24 +119,61 @@ public class NomesanasVieta : MonoBehaviour,
 					objektuSkripts.skanasKoAtskanot[0]);
 
                 switch (eventData.pointerDrag.tag){
-                    case "atkritumi":
-						objektuSkripts.atkritumuMasina.
-						GetComponent<RectTransform>().localPosition =
-						objektuSkripts.atkrMKoord;
-                        break;
-
-                    case "atrie":
-                        objektuSkripts.atraPalidziba.
-                        GetComponent<RectTransform>().localPosition =
-                        objektuSkripts.atrPKoord;
-                        break;
-
-                    case "buss":
-                        objektuSkripts.autobuss.
+						case "putns":
+                        objektuSkripts.putns.
                          GetComponent<RectTransform>().localPosition =
-                         objektuSkripts.bussKoord;
+                         objektuSkripts.putnsKoord;
                         break;
-
+						case "pils":
+                        objektuSkripts.pils.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.pilsKoord;
+                        break;
+						case "hut":
+                        objektuSkripts.hut.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.hutKoord;
+                        break;
+						case "house":
+                        objektuSkripts.house.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.houseKoord;
+                        break;
+						case "dog":
+                        objektuSkripts.dog.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.dogKoord;
+                        break;
+						case "mushroom":
+                        objektuSkripts.mushroom.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.mushroomKoord;
+                        break;
+						case "sailor":
+                        objektuSkripts.sailor.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.sailorKoord;
+                        break;
+						case "ship":
+                        objektuSkripts.ship.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.shipKoord;
+                        break;
+						case "tower":
+                        objektuSkripts.tower.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.towerKoord;
+                        break;
+						case "dragon":
+                        objektuSkripts.dragon.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.shipKoord;
+                        break;
+						case "warrior band":
+                        objektuSkripts.warriorband.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.warriorbandKoord;
+                        break;
                     default:
                         Debug.Log("Tags nav definēts!");
                         break;
