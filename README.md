@@ -12,5 +12,5 @@ Projekts "Medieval puzzle", realizē speli kura jaiepilda puzzles gabali paradze
 - [x] Skaņas efekti
 - [x] Pievienot vel objektus
 - [x] Uztaisit sakuma ekranu
-- [ ] Uztaisit beigu ekranu
+- [x] Uztaisit beigu ekranu
 - [x] Pievienot vel skanas
