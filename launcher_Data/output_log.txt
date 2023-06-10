@@ -23,3 +23,28 @@ Platform assembly: D:\Unity\Projects\Medieval Puzzle\launcher_Data\Managed\Syste
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.511600 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.955300 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 473.
+Total: 0.589900 ms (FindLiveObjects: 0.026600 ms CreateObjectMapping: 0.012700 ms MarkObjects: 0.168100 ms  DeleteObjects: 0.381800 ms)
+
+Uzklikšķināts uz velkama objekta!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.332500 ms
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 272.
+Total: 0.756300 ms (FindLiveObjects: 0.014200 ms CreateObjectMapping: 0.009800 ms MarkObjects: 0.116400 ms  DeleteObjects: 0.615400 ms)
+
+test
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3bb8 -> priority: 1 
+  Thread -> id: 3bd0 -> priority: 1 

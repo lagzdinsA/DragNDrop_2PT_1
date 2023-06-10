@@ -9,6 +9,7 @@ public class NomesanasVieta : MonoBehaviour,
 	private Vector2 vietasIzm, velkObjIzm;
 	private float xIzmStarpiba, yIzmStarpiba;
 	public Objekti objektuSkripts;
+	public Victory Victor;
 
     public void OnDrop(PointerEventData eventData)
     {
@@ -46,6 +47,8 @@ public class NomesanasVieta : MonoBehaviour,
 					&& (xIzmStarpiba <= 0.1 && yIzmStarpiba <= 0.1))
 				{
 					Debug.Log("Nomests pareizajā vietā!");
+					Victor.correct++;
+					
                     objektuSkripts.vaiIstajaVieta = true;
                     eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition
 						= GetComponent<RectTransform>().anchoredPosition;
@@ -119,7 +122,7 @@ public class NomesanasVieta : MonoBehaviour,
 					objektuSkripts.skanasKoAtskanot[0]);
 
                 switch (eventData.pointerDrag.tag){
-						case "putns":
+						case "puts":
                         objektuSkripts.putns.
                          GetComponent<RectTransform>().localPosition =
                          objektuSkripts.putnsKoord;
@@ -167,12 +170,17 @@ public class NomesanasVieta : MonoBehaviour,
 						case "dragon":
                         objektuSkripts.dragon.
                          GetComponent<RectTransform>().localPosition =
-                         objektuSkripts.shipKoord;
+                         objektuSkripts.dragonKoord;
                         break;
 						case "warrior band":
                         objektuSkripts.warriorband.
                          GetComponent<RectTransform>().localPosition =
                          objektuSkripts.warriorbandKoord;
+                        break;
+						case "mill":
+                        objektuSkripts.mill.
+                         GetComponent<RectTransform>().localPosition =
+                         objektuSkripts.millKoord;
                         break;
                     default:
                         Debug.Log("Tags nav definēts!");
